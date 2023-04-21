@@ -1,10 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Coming Soon</title>
+  <title>YouTube Clone</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <img src="https://velvetprojects.github.io/VelvetHTML/A1D8A1B4-E6AA-4320-8E16-39BF58442735.jpeg" alt="Coming Soon" style="width: 100vw; height: 100vh; object-fit: cover;">
-  <h1 style="text-align: center; font-family: Arial; font-weight: bold; color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">Coming Soon</h1>
+  <header>
+    <h1>YouTube Clone</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Explore</a>
+      <a href="#">Sign in</a>
+      <a href="#">Sign up</a>
+    </nav>
+  </header>
+  <main>
+    <section class="video-container">
+      <h2>Video Title</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Screenshot_of_YouTube_video_playback_screen.png/1200px-Screenshot_of_YouTube_video_playback_screen.png" alt="Video thumbnail">
+      <div class="video-info">
+        <p>Channel name: <a href="#">Channel name</a></p>
+        <p>Views: 100,000,000</p>
+        <p>Likes: 1,000,000</p>
+        <p>Dislikes: 100,000</p>
+      </div>
+      <video controls>
+        <source src="https://www.w3schools.com/html/horse.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-controls">
+        <button>Play</button>
+        <button>Pause</button>
+        <button>Mute</button>
+        <button>Fullscreen</button>
+      </div>
+    </section>
+    <section class="comments">
+      <h3>Comments</h3>
+      <ul>
+        <li>
+          <div class="comment">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Screenshot_of_YouTube_video_playback_screen.png/1200px-Screenshot_of_YouTube_video_playback_screen.png" alt="Commenter avatar">
+            <p>This is a comment.</p>
+          </div>
+        </li>
+        <li>
+          <div class="comment">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Screenshot_of_YouTube_video_playback_screen.png/1200px-Screenshot_of_YouTube_video_playback_screen.png" alt="Commenter avatar">
+            <p>This is another comment.</p>
+          </div>
+        </li>
+        <li>
+          <div class="comment">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Screenshot_of_YouTube_video_playback_screen.png/1200px-Screenshot_of_YouTube_video_playback_screen.png" alt="Commenter avatar">
+            <p>This is yet another comment.</p>
+          </div>
+        </li>
+      </ul>
+      <form action="#">
+        <input type="text" placeholder="Add a comment...">
+        <input type="submit" value="Post">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2023 YouTube Clone</p>
+  </footer>
 </body>
 </html>
