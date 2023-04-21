@@ -16,51 +16,44 @@
   </header>
   <main>
     <section class="video-container">
+      <video controls>
+        <source src="https://www.w3schools.com/html/horse.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <h2>Video Title</h2>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Screenshot_of_YouTube_video_playback_screen.png/1200px-Screenshot_of_YouTube_video_playback_screen.png" alt="Video thumbnail">
       <div class="video-info">
         <p>Channel name: <a href="#">Channel name</a></p>
         <p>Views: 100,000,000</p>
         <p>Likes: 1,000,000</p>
         <p>Dislikes: 100,000</p>
       </div>
-      <video controls>
-        <source src="https://www.w3schools.com/html/horse.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <div class="video-controls">
-        <button>Play</button>
-        <button>Pause</button>
-        <button>Mute</button>
-        <button>Fullscreen</button>
+      <div class="video-comments">
+        <h3>Comments</h3>
+        <ul>
+          <li>
+            <div class="comment">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Screenshot_of_YouTube_video_playback_screen.png/1200px-Screenshot_of_YouTube_video_playback_screen.png" alt="Commenter avatar">
+              <p>This is a comment.</p>
+            </div>
+          </li>
+          <li>
+            <div class="comment">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Screenshot_of_YouTube_video_playback_screen.png/1200px-Screenshot_of_YouTube_video_playback_screen.png" alt="Commenter avatar">
+              <p>This is another comment.</p>
+            </div>
+          </li>
+          <li>
+            <div class="comment">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Screenshot_of_YouTube_video_playback_screen.png/1200px-Screenshot_of_YouTube_video_playback_screen.png" alt="Commenter avatar">
+              <p>This is yet another comment.</p>
+            </div>
+          </li>
+        </ul>
+        <form action="#">
+          <input type="text" placeholder="Add a comment...">
+          <input type="submit" value="Post">
+        </form>
       </div>
-    </section>
-    <section class="comments">
-      <h3>Comments</h3>
-      <ul>
-        <li>
-          <div class="comment">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Screenshot_of_YouTube_video_playback_screen.png/1200px-Screenshot_of_YouTube_video_playback_screen.png" alt="Commenter avatar">
-            <p>This is a comment.</p>
-          </div>
-        </li>
-        <li>
-          <div class="comment">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Screenshot_of_YouTube_video_playback_screen.png/1200px-Screenshot_of_YouTube_video_playback_screen.png" alt="Commenter avatar">
-            <p>This is another comment.</p>
-          </div>
-        </li>
-        <li>
-          <div class="comment">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Screenshot_of_YouTube_video_playback_screen.png/1200px-Screenshot_of_YouTube_video_playback_screen.png" alt="Commenter avatar">
-            <p>This is yet another comment.</p>
-          </div>
-        </li>
-      </ul>
-      <form action="#">
-        <input type="text" placeholder="Add a comment...">
-        <input type="submit" value="Post">
-      </form>
     </section>
   </main>
   <footer>
